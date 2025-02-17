@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Private Events - Golden Dream</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/events.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <img src="assets/logo_transparent.png" alt="Golden Dream Logo" class="nav-logo">
+            </a>
+            <button class="hamburger-menu btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="hours.html">Hours & Location</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">Private Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1 class="hero-title">PRIVATE EVENTS</h1>
+    </header>
+
+    <!-- Events Section -->
+    <section class="events-section">
+        <!-- Image Carousel -->
+        <div class="carousel-container">
+            <div id="eventCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/event1.jpg" class="d-block w-100" alt="Event Room 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/event2.jpg" class="d-block w-100" alt="Event Room 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/event3.jpg" class="d-block w-100" alt="Event Room 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/event4.jpg" class="d-block w-100" alt="Event Room 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/event5.jpg" class="d-block w-100" alt="Event Room 5">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Host Your Event Box -->
+        <div class="host-event-box">
+            <h2>Host Your Event With Us</h2>
+            <p>Looking for a perfect venue for your private event? Golden Dream offers an elegant atmosphere, top-notch service, and a variety of customizable options to make your event unforgettable.</p>
+            <p>Whether it’s a corporate meeting, birthday, or wedding reception, we have the space and expertise to bring your vision to life.</p>
+            <a href="reservation.html" class="btn btn-gold">BOOK NOW</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="https://maps.app.goo.gl/AHWQ8P9VhPxCcfFc8" target="_blank" class="social-icon"><i class="bi bi-geo-alt"></i></a>
+            <a href="https://www.facebook.com/p/Golden-Dream-100087683071759/" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/goldendreamsarl/" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/golden-dream-sarl-a22384258/?trk=people-guest_people_search-card&originalSubdomain=bj" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <div class="footer-center">
+            <p class="copyright">© 2025 Golden Dream. All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-right">
+            <a href="contact.html" class="contact-btn">CONTACT</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

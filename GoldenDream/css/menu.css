@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    background: #F8F4E1;
+    color: #4A403A;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    min-height: 12vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 120px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-family: "Eagle Lake", serif;
+    font-weight: bold;
+    color: #4A403A;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Menu Section */
+.menu-section {
+    padding: 30px 5%;
+    margin-top: 50px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title:first-of-type {
+    margin-top: -50px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #C79C2A;
+    font-family: 'Iceberg', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(199, 156, 42, 0.5);
+}
+
+/* Menu Item */
+.menu-item {
+    background: rgba(255, 255, 255, 0.98);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu Item Image */
+.menu-img {
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Menu Item Titles */
+.menu-item h4 {
+    font-size: 1.8rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #4A403A;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Best Seller Badge */
+.best-seller {
+    background-color: #FFD700;
+    color: #4A403A;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+/* Menu Item Description */
+.menu-item p.description {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu-item p {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: #4A403A;
+    text-align: center;
+}
+
+/* Portion Size */
+.menu-item p.portion-size {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: normal;
+    color: #4A403A;
+    margin-bottom: 5px;
+}
+
+/* Customer Ratings */
+.rating {
+    font-size: 1.2rem;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,161 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background: #F8F4E1;
+    color: #FFD700;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.navbar-brand img.nav-logo {
+    width: auto;
+    height: 80px;
+    max-width: 180px;
+}
+
+.hamburger-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    font-size: 50px;
+    color: #FFF700;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0 0 25px rgba(255, 234, 0, 1);
+    transition: text-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.hamburger-menu:hover,
+.hamburger-menu:focus {
+    text-shadow: 0 0 35px rgba(255, 234, 0, 1);
+    transform: scale(1.1);
+}
+
+/* Carousel */
+.carousel-container {
+    margin-top: 140px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* ABOUT US Section */
+.about-content {
+    padding: 80px 15%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4A403A;
+    background: #F8F4E1;
+    min-height: 500px;
+}
+
+.about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Eagle Lake", serif;
+    color: #4A403A;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.about-content p {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    color: #4A403A;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    background: #0D0D0D;
+    color: #FFD700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+/* Social Media Icons */
+.social-icon {
+    font-size: 30px;
+    color: #C0A560;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: #FFD700;
+}
+
+/* Copyright */
+.copyright {
+    font-size: 1rem;
+    color: #A08D5A;
+    text-align: center;
+}
+
+/* Contact Button */
+.contact-btn {
+    font-family: 'Iceberg', sans-serif;
+    font-size: 1.6rem;
+    color: #C0A560;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+    color: #FFD700;
+}
+
+/* Page Background */
+body {
+    background-color: #ffffff;
+    background: #F8F4E1;
+}
